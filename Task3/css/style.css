@@ -1,0 +1,219 @@
+body {
+    min-width: 320px;
+    max-width: 768px;
+    margin: auto;
+    background-color: #F5F8FA;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    margin: auto;
+    background-color: #00a;
+    width: 100%;
+    height: 40px;
+}
+
+button {
+    border-radius: 3px; 
+    background-color: #F5F8FA;
+}
+
+input {
+    border-radius: 3px;
+    padding-left: 3px;
+}
+
+.header-elem {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.logo-img-size {
+    width: 95px;
+    height: 30px;
+}
+
+.header-text {
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.header-btn-size {
+    width: 60px;
+    height: 30px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 10px;
+}
+
+.header-btn-div {
+    float: right;
+}
+
+.main-content-div {
+    padding-top: 5px;
+    width: 100%;
+}
+
+.box {
+    border-radius: 2px;
+    border: solid 1px #d3d3d3;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.search-input-size {
+    width: 100%;
+    height: 20px;
+}
+
+.search-input-position {
+    box-sizing: border-box;
+}
+
+.sign-in-div-size {
+    width: 100%;
+}
+
+.sign-in-div-position {
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.sing-in-logo {
+    font-size: 25px;
+}
+
+.credentials {
+    width: 70%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.remember-me {
+    margin-top: 10px;
+}
+
+.sign-in-btn {
+    float: right;
+    height: 30px;
+}
+
+.blocker {
+    display: table;
+    clear: both;
+}
+.gallery {
+    background-color: #ffffff;
+    border-radius: 2px;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.gallery-logo {;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+}
+
+.gallery-img {
+    padding-top: 0%;
+    width: 100%;
+}
+
+.post-div {
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.post-img {
+    display: inline-block;
+    width: 100%;
+}
+
+.post-text {
+    margin-left: 7px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.article-header {
+    font-size: 20px;
+    margin-left: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.foot-div {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+}
+
+.foot-btn-div {
+    display: inline-block;
+    width: 20%;
+}
+
+.foot-btn-img {
+    width: 100%;
+}
+
+.footer-elem {
+    display: inline-block;
+    text-align: justify;
+    width: 10%;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.sass {
+    width: 40px;
+}
+
+.footer-ul {
+    width: 100%;
+}
+
+.footer-text {
+    text-decoration: none;
+}
+
+.header-links {
+    display: none;
+}
+
+.user-name-div {
+    display: none;
+}
+
+.header-img {
+    display: none;
+}
+
+.search-btn {
+    display: none;
+}
+
+.search-input {
+    margin-top: 2px;
+    display: none;
+}
+
+.menu {
+    display: none;
+}

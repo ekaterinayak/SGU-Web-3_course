@@ -1,0 +1,40 @@
+body {
+    width: 700px;
+    margin-left: 30px;
+}
+
+input {
+    width: 80%;
+}
+
+button {
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 5px;
+    width: 80px;
+}
+
+div.date {
+    display: inline-block;
+}
+
+div.date input{
+    display: inline-block;
+    width: 50px;
+}
+
+input.formask {
+    width: 80%;
+    margin-top: 20px;
+}
+
+input.submit {
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 5px;
+    width: 80px;
+}
+
+textarea {
+    width: 80%;
+}

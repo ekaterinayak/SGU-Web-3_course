@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Task 5</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<h1><b>JS Basics</b></h1>
+
+<h3><b>Count Numbers</b></h3>
+<form role="form">
+    <div class="form-group row">Format
+        <div class="col-12">
+            <input type="text" id="count-numbers-text">
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="button" class="btn btn-dark" onclick="countNumbers()">Count</button>
+    </div>
+</form>
+
+<h3><b>Delete Repeated</b></h3>
+
+<form role="form">
+    <div class="form-group row">
+        <div class="col-12">
+            <textarea class="delete" type="text" id="delete-repeated-text" value="Qwerty qwert"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="button" class="btn btn-dark" onclick="deleteRepeated()">Delete</button>
+    </div>
+</form>
+
+<h3><b>Date Format</b></h3>
+
+<form role="form">
+    <div class="form-group row">
+        <div class="col-12">
+            <input type="datetime-local" class="form-control" value="2015-03-04T05:07:08" step="1" id="date-input"
+                   title="date">
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-12">
+            <input type="text" class="form-control" id="pattern" value="HH hh M MM MMM MMMM m mm"
+                   placeholder="pattern">
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-12">
+            <input type="text" class="form-control" id="date-format-result" placeholder="result">
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="button" class="btn btn-dark" onclick="dateFormat()">Replace</button>
+    </div>
+</form>
+
+
+</body>
+</html>
